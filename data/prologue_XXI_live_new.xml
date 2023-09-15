@@ -1,0 +1,252 @@
+<?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?teipublisher odd="liber.odd" template="liber.html" view="page" media="latex"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Troisième Décade</title>
+            <author>Pierre Bersuire</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>
+               <origDate>1351-1358</origDate>
+               <lang>français</lang>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>
+                <listWit>
+               		<witness xml:id="B">BNF, fr.263</witness>
+               		<witness xml:id="A">BNF, fr.261</witness>
+               		<witness xml:id="C">BNF, fr.271</witness>
+               		<witness xml:id="G">Sainte Gen. 777</witness>
+               		<witness xml:id="Liv">Histoire romaine. Tome XI. Livre XXI, Alain Hus (éd.), Les Belles Lettres, Paris, 1990</witness>
+            	</listWit>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="TitusLivius">
+                    <persName>Titus Livius</persName>
+                </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+         <listPlace>
+            <place xml:id="Cartago">
+                <placeName>Cartago</placeName>
+            </place>
+         </listPlace>
+      </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+		<body>
+            <div type="original" xml:lang="mf">
+                <pb f="f.198a" n="1" xml:id="pb-orig-f.198a-1" facs="iiif:Facsimile_Bersuire_XX1_1_198a.jpg"/>
+                
+			    <head type="rubric" source="#C">
+                    <ab xml:id="s.1">
+                        <app type="omission">
+                            <lem wit="#C">Cy commence le prologue de la tierce decade de <persName ref="#TitusLivius">titus livius</persName> de la seconde guerre punique.</lem>
+                            <rdg wit="#A">Cy co(m)mence la seconde decade de <persName ref="#TitusLivius">tytus liui(us)</persName> (et) fait le p(re)mier chapitre me(n)cion de la cause de la seconde guerre punique entre les rommains et les cartagiens.</rdg>
+                            <rdg wit="#B"/>
+                            <rdg wit="#G">
+                                <lacunaStart xml:id="app1"/>
+                            </rdg>
+                        </app>
+                    </ab>
+                </head>
+                
+				<p>
+				    <cb n="198a" source="#B" corresp="#Liv 21.1"/>
+				    <ab xml:id="s.2">
+                        <hi rend="b">E</hi>l me plaist a parler en une ꝑtie de mon euure de ce dont pluseurs autres 
+                        <app type="lexicale">
+                            <lem wit="#C">scripteurs</lem>
+                            <rdg wit="#B #A">scriptures</rdg>
+                            <rdg wit="#Liv" type="source" xml:lang="lat">scriptores</rdg>
+                        </app>
+                        ont parle a commencement de la leur.
+                    </ab>
+                    
+                    <ab xml:id="s.3">
+                        C'est a dire de la guerre plus memorable qui oncques encore
+                        <app type="flexionnelle">
+                            <lem wit="#C">fut faitte</lem>
+                            <rdg wit="#B #A">furent faittes</rdg>
+                        </app>
+                        ;
+                    </ab>
+                    
+                    <ab xml:id="s.4">
+                        laquelle ceulz de cartage orent 
+                        <app type="lexicale">
+                            <lem wit="#C">auecquez</lem>
+                            <rdg wit="#A">auenc</rdg>
+                            <rdg wit="#B">auãt</rdg>
+                        </app>
+                        les romains, soulz hanibal leur duc 
+                        <app type="addition">
+                            <lem wit="#C #A">(et)</lem>
+                            <rdg wit="#B"/>
+                        </app>
+                        empereur.
+                    </ab>
+                    
+                    <ab xml:id="s.5">
+                        Car pour uoyr õcques mais gens 
+                        <app type="lexicale">
+                            <lem wit="#B #A">ne</lem>
+                            <rdg wit="#C">ou</rdg>
+                        </app>
+                        citez de pluseurs
+                        <app type="addition">
+                            <lem wit="#B #A"/>
+                            <rdg wit="#C">grans</rdg>
+                        </app>
+                        richesses ou qui plus eussent de puissance ou de force ne qͥ plꝰ 
+                        <app type="lexicale">
+                            <lem wit="#C #A">sceussent</lem>
+                            <rdg wit="#B">eussent</rdg>
+                        </app> 
+                        d'art ne de soubtilete de batailler n'orent a faire ensemble de nul fait d'armes,
+                    </ab>
+                    
+                    <ab xml:id="s.6">
+                        car certainement l'une partie ⁊ l'autre auoient este si apris ⁊ exc̾citez en fait d'armes en la premiere bataille punique; 
+                        <app type="lexicale">
+                            <lem wit="#B #A">car</lem>
+                            <rdg wit="#C">que</rdg>
+                        </app>
+                        a ceste foys la fortune de la bataille a este si doubteuse que ceulz qui furent uicteurs furent 
+                        <app type="lexicale">
+                            <lem wit="#B #C">a</lem>
+                            <rdg wit="#A">p(ar)</rdg>
+                        </app>a pou plus pres de peril que les uaincuz.
+                    </ab>
+                    
+                    <ab xml:id="s.7">
+                        Et encore en leurs guerres furent
+                        <app type="lexicale">
+                            <lem wit="#B #A">leurs</lem>
+                            <rdg wit="#C">les</rdg>
+                        </app> haynes plus grans que leurs pouoyrs,
+                    </ab>
+                    
+                     <ab xml:id="s.8">
+                        car les romains estoient indignes de ce que ceulz de cartage premierement uaincuz osoient inferer armes uolenterement a leurs uicteurs, c'est-a-dire aus romaĩs. Et les penois estoient courrouciez de ce qui leur sembloit que les romains orgueilleusement et auerement auoient seignoury et impere a eulz <cb n="198b"/>uaincuz. 
+                    </ab>
+                    
+                    <ab xml:id="s.9"> 
+                        <seg type="rubric">
+                            <app type="omission">
+                                <rdgGrp>
+                                    <lem wit="#B">Incident ¶</lem>
+                                    <rdg wit="#A">Incident</rdg>
+                                </rdgGrp>
+                                <rdg wit="#C"/>
+                            </app>
+                        </seg>  
+                        <placeName ref="#Cartago">Cartage</placeName> estoit une cite tres noble et tres
+                        <app>
+                            <lem resp="editor">puissante</lem>
+                            <rdg wit="#B #C #A">puissant</rdg>
+                        </app>
+                        assise en <placeName>affrique</placeName> su̾ la mer la ou est 
+                        <app type="lexicale">
+                            <lem wit="#B #A">orendroit</lem>
+                            <rdg wit="#C">orez</rdg>
+                        </app> 
+                        la cite de <placeName>tunes</placeName>, 
+                    </ab>
+
+                    <ab xml:id="s.10">
+                        la region auoit nom 
+                        <app type="ajoute">
+                            <lem wit="#B #A"/>
+                            <rdg wit="#C">pour</rdg>
+                        </app>
+                        lors <placeName>penye</placeName>,
+                    </ab>
+
+                    <ab xml:id="s.11">
+                        si que par toute ceste oeuure les cartagois sont appellez penois et leurs batailles les batailles puniques.
+                    </ab>
+				</p>
+		    </div>
+		    <div type="translation" xml:lang="lt">
+		        <pb f="f.198a" n="1" xml:id="pb-trans-f.198a-1" facs="iiif:Facsimile_Bersuire_XX1_1_198a.jpg"/>
+			    <head type="rubric" source="#C">
+                    <ab xml:id="t.1">
+                       Cy Incipit prologus tertiae decadis T. Livii secundi belli punici.
+                    </ab>
+                </head>
+                
+                <p>
+                    <cb n="198a" source="#B" corresp="#Liv 21.1"/>
+                    <ab xml:id="t.2">
+                        Libet loqui aliquid temporis mei de iis, quae plures alii scriptores initio eorum locuti sunt.
+                    </ab>
+                    <ab xml:id="t.3">
+                        Videlicet memorabili bello quod umquam gestum est;
+                    </ab>
+                    <ab xml:id="t.4">
+                        quod ceulz de carragia orent auecquez
+                        the Romans, soulz hanibal eorum dux.
+                        Caesar.
+                    </ab>
+                     
+                    
+                    <ab xml:id="t.5">
+                        Quia autem populus uoyr cques non faciunt
+                        quote more
+                        divitiae vel qui plus valuerunt vel viribus tantum pl
+                        scew
+                        non artis, non artis ad pugnam, non ad arma concurritur,
+                    </ab>
+                    
+                    <ab xml:id="t.6">   
+                        Nam profecto in bello Punico primo Punico armis alter alteri tam doctus fuerat;
+                        quod
+                        tum tam anceps fortuna pugnae fuit ut qui uictores essent
+                        Ad
+                        a pou periculum propius quam uaincuz.
+                    </ab>
+                    
+                    <ab xml:id="t.7">
+                        Et iterum in bellis eorum
+                        eorum
+                        haynes eminentior pouoyrs;
+                    </ab>
+                    
+                    <ab xml:id="t.8">
+                        Romani enim indigne erant, quod Cartagena prius uaincuz ausa est suis sequacibus arma inferre uolenter, 
+                        hoc est Romanis. Et irati sunt Penois quod eis videbatur Romanos superbe et audacter 
+                        seignasse et impere a eulz uaincuz.                    
+                    </ab>
+                    
+                    <ab xml:id="t.9"> 
+                        incident
+                        Vehicula erat nobilissima et valde
+                        potens
+                        sedet in Africa super mare ubi est
+                        orplace
+                        auctoritas in cantu;
+                    </ab>
+
+                    <ab xml:id="t.10">      
+                        regionem habet nomen
+                        For
+                        tum penye,
+                    </ab>
+
+                    <ab xml:id="t.11">
+                        ita ut in hoc opere Cartagois penois et eorum proeliis Punicis proeliis dicantur.                    
+                    </ab>
+                    
+                </p>
+		    </div>
+	    </body>
+   </text>
+</TEI>

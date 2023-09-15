@@ -1,0 +1,27 @@
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>Module de mise en regard du projet Liber</description>
+    <author>Emilie VOLPI, Michel Marie LAMAH</author>
+    <status>beta</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <prepare>pre-install.xql</prepare>
+    <finish>post-install.xql</finish>
+    <target>Liber</target>
+     <changelog>
+     <change version="5.0">
+            <ul xmlns="http://www.w3.org/1999/xhtml">
+                <li>Defilement de page</li>
+            </ul>
+        </change>
+        <change version="4.0">
+            <ul xmlns="http://www.w3.org/1999/xhtml">
+                <li>Affichage Meta-données</li>
+                <li>Affichage des info-bulles</li>
+                <li>Affichage des notes de pages</li>
+            </ul>
+        </change>
+    </changelog>
+    <permissions user="tei-demo" group="tei" mode="rw-r--r--"/>
+    <deployed>2023-09-06T08:41:12.807+02:00</deployed>
+</meta>
